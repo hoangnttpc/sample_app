@@ -1,2 +1,33 @@
 vi:
-  title: 'Xin Chao!'
+  hello: Xin chào thế giới
+  layouts:
+    application:
+      en: Tiếng Anh
+      vi: Tiếng Việt
+      suffix_title: App mẫu Ruby on Rails
+  ruby_on_rails: Ruby on Rails
+  ruby_on_rails_book: sách hướng dẫn Rails.
+  ruby_on_rails_help: trang trợ giúp Rails.
+  ruby_on_rails_tut: hướng dẫn Rails
+  s_text: Đẹp tựa bông hoa
+  static_pages:
+    about:
+      about_title: Về chúng tôi
+      book: sách
+      detail_1: Ebook
+      detail_2: là một phần của
+      detail_3: family, để dạy phát triển web với.
+      description_title: Đây là ứng dụng mẫu của hướng dẫn.
+      heading: Về chúng tôi
+      learn_enough: Learn Enough
+      screencast: chuỗi ảnh
+    help:
+      description_detail: Lấy trợ giúp về ứng dụng mẫu tại
+      description_title: Tìm kiếm trợ giúp về hướng dẫn Rails tại
+      heading: Trợ giúp
+      help_title: Trợ giúp
+    home:
+      description_detail: ứng dụng mẫu của
+      description_title: 'Đây là trang chủ cho '
+      heading: Sample App
+      home_title: Trang chủ
