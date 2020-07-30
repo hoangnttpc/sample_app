@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= t (".title"), locale: :vi %></title>
+    <title><%= yield :title %> | <%= t ".suffix_title" %></title>
+    <meta charset="utf-8">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -11,5 +12,7 @@
 
   <body>
     <%= yield %>
+    <%= link_to t(".en"), locale: :en %>
+    <%= link_to t(".vi"), locale: :vi %>
   </body>
 </html>

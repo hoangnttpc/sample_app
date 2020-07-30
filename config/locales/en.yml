@@ -1,33 +1,33 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at https://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  hello: Hello world
+  layouts:
+    application:
+      en: English
+      vi: Vietnamese
+      suffix_title: Ruby on Rails Tutorial Sample App
+  ruby_on_rails: Ruby on Rails
+  ruby_on_rails_book: Ruby on Rails Tutorial book.
+  ruby_on_rails_help: Rails Tutorial help page.
+  ruby_on_rails_tut: Ruby on Rails Tutorial
+  s_text: Like a flower
+  static_pages:
+    about:
+      about_title: About
+      book: book
+      detail_1: Ebook
+      detail_2: is a part of the
+      detail_3: family of tutorials, to teach web development with
+      description_title: This is the sample app for the tutorial.
+      heading: About
+      learn_enough: Learn Enough
+      screencast: screencast series
+    help:
+      description_detail: To get help on this sample app, see the
+      description_title: Get help on the Ruby on Rails Tutorial at the
+      heading: Help
+      help_title: Help
+    home:
+      description_detail: sample application of
+      description_title: This is the home page for the
+      heading: Sample App
+      home_title: Home

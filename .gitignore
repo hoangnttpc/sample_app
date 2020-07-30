@@ -36,3 +36,5 @@
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+
+/app/helpers/static_pages_helper.rb
