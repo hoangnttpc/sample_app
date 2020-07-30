@@ -1,0 +1,12 @@
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <%= link_to t(".logo_alt"), root_path, id: "logo" %>
+    <nav>
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to t(".home_header"), root_path %></li>
+        <li><%= link_to t(".help_header"), help_path %></li>
+        <li><%= link_to t(".login_header"), "#" %></li>
+      </ul>
+    </nav>
+  </div>
+</header>

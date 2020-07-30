@@ -5,10 +5,22 @@ vi:
       en: Tiếng Anh
       vi: Tiếng Việt
       suffix_title: App mẫu Ruby on Rails
+    footer:
+      about_footer: Về chúng tôi
+      contact_footer: Liên hệ
+      description_detail: bởi %{href}
+      description_title: Hướng dẫn %{href}
+      new_footer: Tin tức
+    header:
+      help_header: Trợ giúp
+      home_header: Trang chủ
+      login_header: Đăng nhập
+      logo_alt: sample app
   ruby_on_rails: Ruby on Rails
   ruby_on_rails_book: sách hướng dẫn Rails.
   ruby_on_rails_help: trang trợ giúp Rails.
-  ruby_on_rails_tut: hướng dẫn Rails
+  ruby_on_rails_tut: Ruby on Rails Tutorial
+  ruby_on_rails_tut_author: Michael Hartl
   s_text: Đẹp tựa bông hoa
   static_pages:
     about:
@@ -21,6 +33,11 @@ vi:
       heading: Về chúng tôi
       learn_enough: Learn Enough
       screencast: chuỗi ảnh
+    contact:
+      contact_title: Liên hệ
+      description_title: Liên hệ tới hướng dẫn Ruby on Rails về mặt ứng dụng mẫu tại
+      heading: Liên hệ
+      ruby_on_rails_contact: trang liên hệ.
     help:
       description_detail: Lấy trợ giúp về ứng dụng mẫu tại
       description_title: Tìm kiếm trợ giúp về hướng dẫn Rails tại
@@ -31,3 +48,9 @@ vi:
       description_title: 'Đây là trang chủ cho '
       heading: Sample App
       home_title: Trang chủ
+      sign_up_button: Đăng ký ngay!
+  users:
+    new:
+      description_title: Đây sẽ là trang đăng ký cho người dùng mới.
+      heading: Đăng ký
+      signup_title: Đăng ký

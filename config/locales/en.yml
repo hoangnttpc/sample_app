@@ -5,10 +5,22 @@ en:
       en: English
       vi: Vietnamese
       suffix_title: Ruby on Rails Tutorial Sample App
+    footer:
+      about_footer: About
+      contact_footer: Contact
+      description_detail: by %{href}
+      description_title: The %{href}
+      new_footer: News
+    header:
+      help_header: Help
+      home_header: Home
+      login_header: Log in
+      logo_alt: sample app
   ruby_on_rails: Ruby on Rails
   ruby_on_rails_book: Ruby on Rails Tutorial book.
   ruby_on_rails_help: Rails Tutorial help page.
   ruby_on_rails_tut: Ruby on Rails Tutorial
+  ruby_on_rails_tut_author: Michael Hartl
   s_text: Like a flower
   static_pages:
     about:
@@ -21,6 +33,11 @@ en:
       heading: About
       learn_enough: Learn Enough
       screencast: screencast series
+    contact:
+      contact_title: Contact
+      description_title: Contact the Ruby on Rails Tutorial about the sample app at the
+      heading: Contact
+      ruby_on_rails_contact: contact page.
     help:
       description_detail: To get help on this sample app, see the
       description_title: Get help on the Ruby on Rails Tutorial at the
@@ -31,3 +48,9 @@ en:
       description_title: This is the home page for the
       heading: Sample App
       home_title: Home
+      sign_up_button: Sign up now!
+  users:
+    new:
+      description_title: This will be a signup page for new users.
+      heading: Sign up
+      signup_title: Sign up

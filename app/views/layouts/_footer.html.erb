@@ -1,0 +1,17 @@
+<footer class="footer">
+  <small>
+    <%= t ".description_title" %>
+    <%= link_to t("ruby_on_rails_tut"), Settings.links.rails_tutorial.home_page %>
+    <%= t ".description_detail" %>
+    <%= link_to t("ruby_on_rails_tut_author"), Settings.links.rails_tutorial.author %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t(".about_footer"), about_path %></li>
+      <li><%= link_to t(".contact_footer"), contact_path %></li>
+      <li><%= link_to t(".new_footer"), Settings.links.rails_tutorial.new_page %></li>
+      <li><%= link_to t("layouts.application.en"), locale: :en %></li>
+      <li><%= link_to t("layouts.application.vi"), locale: :vi %></li>
+    </ul>
+  </nav>
+</footer>
