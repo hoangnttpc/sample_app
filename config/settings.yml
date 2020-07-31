@@ -1,8 +1,13 @@
+static_pages:
+    home:
+      image_size: 200px
 links:
   rails_tutorial:
     home_page: "https://www.railstutorial.org/"
     help_page: "https://www.railstutorial.org/help"
     book_page: "https://www.railstutorial.org/book"
     screencasts_page: "https://screencasts.railstutorial.org/"
-    contact_page: https://www.railstutorial.org/contact
+    contact_page: "https://www.railstutorial.org/contact"
+    new_page: "https://news.railstutorial.org/"
+    author: "https://www.michaelhartl.com/"
   learn_enough: "https://www.learnenough.com/"
