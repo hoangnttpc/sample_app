@@ -1,4 +1,38 @@
 vi:
+  activerecord:
+    attributes:
+      user:
+        email: Địa chỉ email
+        name: Họ tên
+        password: Mật khẩu
+        password_confirmation: Xác nhận mật khẩu
+    errors:
+      format: "%{attribute} %{message}"
+      messages:
+        accepted: phải được đồng ý
+        blank: không thể để trắng
+        confirmation: không khớp với xác nhận
+        empty: không thể rỗng
+        equal_to: phải bằng %{count}
+        even: phải là số chẵn
+        exclusion: đã được giành trước
+        greater_than: phải lớn hơn %{count}
+        greater_than_or_equal_to: phải lớn hơn hoặc bằng %{count}
+        inclusion: không có trong danh sách
+        invalid: không hợp lệ
+        less_than: phải nhỏ hơn %{count}
+        less_than_or_equal_to: phải nhỏ hơn hoặc bằng %{count}
+        not_a_number: không phải là số
+        not_an_integer: phải là một số nguyên
+        odd: phải là số lẻ
+        other_than: cần phải khác %{count}
+        present: cần phải để trắng
+        taken: đã có
+        too_long: quá dài (tối đa %{count} ký tự)
+        too_short: quá ngắn (tối thiểu %{count} ký tự)
+        wrong_length: độ dài không đúng (phải là %{count} ký tự)
+        required: "phải có"
+        taken: "đã tồn tại"
   hello: Xin chào thế giới
   layouts:
     application:
@@ -8,8 +42,8 @@ vi:
     footer:
       about_footer: Về chúng tôi
       contact_footer: Liên hệ
-      description_detail: bởi %{href}
-      description_title: Hướng dẫn %{href}
+      description_detail: bởi
+      description_title: Hướng dẫn
       new_footer: Tin tức
     header:
       help_header: Trợ giúp
@@ -22,6 +56,10 @@ vi:
   ruby_on_rails_tut: Ruby on Rails Tutorial
   ruby_on_rails_tut_author: Michael Hartl
   s_text: Đẹp tựa bông hoa
+  shared:
+    error_messages:
+      errors_count:
+        other: "Có %{count} lỗi"
   static_pages:
     about:
       about_title: Về chúng tôi
@@ -54,3 +92,13 @@ vi:
       description_title: Đây sẽ là trang đăng ký cho người dùng mới.
       heading: Đăng ký
       signup_title: Đăng ký
+      Fcreate: Tạo tài khoản
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      confirmation: "Xác nhận mật khẩu"
+    create:
+      success_mess: Chào mừng tới sample app!
+      fail_mess_create: Tài khoản tạo không thành công.
+    show:
+      fail_mess_notfound: Không tìm thấy thông tin tài khoản.

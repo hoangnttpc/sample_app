@@ -1,4 +1,10 @@
-$gray: #a9a9a9;
-$gray-darker: #808080;
-$gray-light: #d3d3d3;
+/* colors */
 $gray-medium-light: #eaeaea;
+$silver: #C0C0C0;
+
+/* re-code */
+@mixin box_sizing {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
