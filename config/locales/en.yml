@@ -30,7 +30,14 @@ en:
         present: must be blank
         required: must exist
         taken: has already been taken
+        wrong_length: incorrect length (must be %{count} characters)
+        too_long: too long (maximum %{count} characters)
+        too_short: too short (at least %{count} characters)
   hello: Hello world
+  login: "Log in"
+  logout: "Log out"
+  signup: "Sign up"
+  users_detail: "Users"
   layouts:
     application:
       en: English
@@ -46,13 +53,20 @@ en:
       help_header: Help
       home_header: Home
       login_header: Log in
+      logout_header: Log out
       logo_alt: sample app
+      profile: My profile
+      setting: Setting
   ruby_on_rails: Ruby on Rails
   ruby_on_rails_book: Ruby on Rails Tutorial book.
   ruby_on_rails_help: Rails Tutorial help page.
   ruby_on_rails_tut: Ruby on Rails Tutorial
   ruby_on_rails_tut_author: Michael Hartl
   s_text: Like a flower
+  shared:
+    error_messages:
+      errors_count:
+        other: "The form contains %{count} error(s)"
   static_pages:
     about:
       about_title: About
@@ -95,3 +109,12 @@ en:
       fail_mess_create: Account create fail.
     show:
       fail_mess_notfound: Account not found.
+  sessions:
+    new:
+      email: "Email"
+      password: "Password"
+      new_user: "New user?"
+      signup_now: "Sign up now!"
+    create:
+      error_login: "Invalid email/password combination"
+      success_login: "Login successfully"
