@@ -11,6 +11,7 @@ links:
     new_page: "https://news.railstutorial.org/"
     author: "https://www.michaelhartl.com/"
   learn_enough: "https://www.learnenough.com/"
+  gravatar: "https://secure.gravatar.com/avatar/"
 validations:
   name:
     max_length: 50

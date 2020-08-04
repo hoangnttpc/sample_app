@@ -1,4 +1,35 @@
 en:
+  activerecord:
+    attributes:
+      user:
+        email: Email
+        name: Name
+        password: Password
+        password_confirmation: Confirmation
+    errors:
+      format: "%{attribute} %{message}"
+      messages:
+        accepted: must be accepted
+        blank: can't be blank
+        confirmation: doesn't match %{attribute}
+        empty: can't be empty
+        equal_to: must be equal to %{count}
+        even: must be even
+        exclusion: is reserved
+        greater_than: must be greater than %{count}
+        greater_than_or_equal_to: must be greater than or equal to %{count}
+        inclusion: is not included in the list
+        invalid: is invalid
+        less_than: must be less than %{count}
+        less_than_or_equal_to: must be less than or equal to %{count}
+        model_invalid: 'Validation failed: %{errors}'
+        not_a_number: is not a number
+        not_an_integer: must be an integer
+        odd: must be odd
+        other_than: must be other than %{count}
+        present: must be blank
+        required: must exist
+        taken: has already been taken
   hello: Hello world
   layouts:
     application:
@@ -8,8 +39,8 @@ en:
     footer:
       about_footer: About
       contact_footer: Contact
-      description_detail: by %{href}
-      description_title: The %{href}
+      description_detail: by
+      description_title: The
       new_footer: News
     header:
       help_header: Help
@@ -54,3 +85,13 @@ en:
       description_title: This will be a signup page for new users.
       heading: Sign up
       signup_title: Sign up
+      Fcreate: Create my account
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirmation: "Password Confirmation"
+    create:
+      success_mess: Welcome to the Sample App!
+      fail_mess_create: Account create fail.
+    show:
+      fail_mess_notfound: Account not found.
