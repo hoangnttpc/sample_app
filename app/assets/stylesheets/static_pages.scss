@@ -97,3 +97,18 @@ footer {
   margin-top: 45px;
   @include box_sizing;
 }
+
+.checkbox {
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+  span {
+    font-weight: normal;
+    margin-left: 20px;
+  }
+}
+
+#session_remember_me {
+  margin-left: 0;
+  width: auto;
+}

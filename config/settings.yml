@@ -1,6 +1,6 @@
 static_pages:
-    home:
-      image_size: 200px
+  home:
+    image_size: 200px
 links:
   rails_tutorial:
     home_page: "https://www.railstutorial.org/"
@@ -20,3 +20,6 @@ validations:
     regex: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i'
   password:
     min_length: 6
+sessions:
+  create:
+    select_box: 1
