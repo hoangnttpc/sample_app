@@ -115,6 +115,7 @@ en:
       password: "Password"
       new_user: "New user?"
       signup_now: "Sign up now!"
+      rememberMe: "Remember me on this computer"
     create:
       error_login: "Invalid email/password combination"
       success_login: "Login successfully"

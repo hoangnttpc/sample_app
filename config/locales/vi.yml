@@ -54,7 +54,7 @@ vi:
       home_header: Trang chủ
       login_header: Đăng nhập
       logout_header: Đăng xuất
-      logo_alt: sample app
+      logo_alt: Ứng dụng mẫu
       profile: Trang cá nhân
       setting: Thiết lập
   ruby_on_rails: Ruby on Rails
@@ -115,6 +115,7 @@ vi:
       password: "Mật khẩu"
       new_user: "Người dùng mới?"
       signup_now: "Đăng ký ngay!"
+      rememberMe: "Ghi nhớ đăng nhập trên máy này."
     create:
       error_login: "Lỗi email hoặc mật khẩu"
       success_login: "Đăng nhập thành công."

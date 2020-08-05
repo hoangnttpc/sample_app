@@ -128,7 +128,7 @@ Metrics/BlockNesting:
 Metrics/AbcSize:
   # The ABC size is a calculated magnitude, so this number can be a Fixnum or
   # a Float.
-  Max: 20
+  Max: 30
 
 Style/BracesAroundHashParameters:
   EnforcedStyle: no_braces
@@ -288,7 +288,7 @@ Style/LambdaCall:
     - braces
 
 Metrics/LineLength:
-  Max: 80
+  Max: 110
   AllowURI: true
   Exclude:
     - config/routes.rb
