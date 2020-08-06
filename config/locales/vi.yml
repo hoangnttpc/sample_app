@@ -7,7 +7,7 @@ vi:
         password: Mật khẩu
         password_confirmation: Xác nhận mật khẩu
     errors:
-      format: "%{attribute} %{message}"
+      format: '%{attribute} %{message}'
       messages:
         accepted: phải được đồng ý
         blank: không thể để trắng
@@ -28,21 +28,17 @@ vi:
         odd: phải là số lẻ
         other_than: cần phải khác %{count}
         present: cần phải để trắng
+        required: phải có
+        taken: đã tồn tại
         too_long: quá dài (tối đa %{count} ký tự)
         too_short: quá ngắn (tối thiểu %{count} ký tự)
         wrong_length: độ dài không đúng (phải là %{count} ký tự)
-        required: "phải có"
-        taken: "đã tồn tại"
   hello: Xin chào thế giới
-  login: "Đăng nhập"
-  logout: "Đăng xuất"
-  signup: "Đăng ký"
-  users_detail: "Người dùng"
   layouts:
     application:
-      en: Tiếng Anh
-      vi: Tiếng Việt
+      en: English
       suffix_title: App mẫu Ruby on Rails
+      vi: Tiếng Việt
     footer:
       about_footer: Về chúng tôi
       contact_footer: Liên hệ
@@ -53,28 +49,42 @@ vi:
       help_header: Trợ giúp
       home_header: Trang chủ
       login_header: Đăng nhập
-      logout_header: Đăng xuất
       logo_alt: Ứng dụng mẫu
+      logout_header: Đăng xuất
       profile: Trang cá nhân
       setting: Thiết lập
+  login: Đăng nhập
+  logout: Đăng xuất
   ruby_on_rails: Ruby on Rails
   ruby_on_rails_book: sách hướng dẫn Rails.
   ruby_on_rails_help: trang trợ giúp Rails.
   ruby_on_rails_tut: Ruby on Rails Tutorial
   ruby_on_rails_tut_author: Michael Hartl
   s_text: Đẹp tựa bông hoa
+  sessions:
+    create:
+      error_login: Lỗi email hoặc mật khẩu
+      success_login: Đăng nhập thành công.
+    new:
+      email: Email
+      new_user: Người dùng mới?
+      password: Mật khẩu
+      rememberMe: Ghi nhớ đăng nhập trên máy này.
+      signup_now: Đăng ký ngay!
   shared:
     error_messages:
       errors_count:
-        other: "Có %{count} lỗi"
+        other: Có %{count} lỗi
+    user_not_found: "Không tìm thấy người dùng"
+  signup: Đăng ký
   static_pages:
     about:
       about_title: Về chúng tôi
       book: sách
+      description_title: Đây là ứng dụng mẫu của hướng dẫn.
       detail_1: Ebook
       detail_2: là một phần của
       detail_3: family, để dạy phát triển web với.
-      description_title: Đây là ứng dụng mẫu của hướng dẫn.
       heading: Về chúng tôi
       learn_enough: Learn Enough
       screencast: chuỗi ảnh
@@ -90,32 +100,52 @@ vi:
       help_title: Trợ giúp
     home:
       description_detail: ứng dụng mẫu của
-      description_title: 'Đây là trang chủ cho '
+      description_title: Đây là trang chủ cho
       heading: Sample App
       home_title: Trang chủ
       sign_up_button: Đăng ký ngay!
   users:
-    new:
-      description_title: Đây sẽ là trang đăng ký cho người dùng mới.
-      heading: Đăng ký
-      signup_title: Đăng ký
-      Fcreate: Tạo tài khoản
-      name: "Tên"
-      email: "Email"
-      password: "Mật khẩu"
-      confirmation: "Xác nhận mật khẩu"
     create:
-      success_mess: Chào mừng tới sample app!
       fail_mess_create: Tài khoản tạo không thành công.
+      success_mess: Chào mừng tới sample app!
+    destroy:
+      delete_danger: Xóa không thành công
+      user_deleted: Người dùng đã bị xóa
+    edit:
+      change: Thay đổi
+      confirmation: Xác nhận mật khẩu
+      edit_title: Chỉnh sửa người dùng
+      email: Email
+      fsave: Lưu thay đổi
+      heading: Chỉnh sửa hồ sơ của bạn
+      name: Tên
+      not_logged_in: Xin hãy đăng nhập
+      password: Mật khẩu
+    index:
+      heading: Danh sách người dùng
+      index_title: Danh sách người dùng
+    new:
+      confirmation: Xác nhận mật khẩu
+      description_title: Đây sẽ là trang đăng ký cho người dùng mới.
+      email: Email
+      fcreate: Tạo tài khoản
+      heading: Đăng ký
+      name: Tên
+      password: Mật khẩu
+      signup_title: Đăng ký
     show:
       fail_mess_notfound: Không tìm thấy thông tin tài khoản.
-  sessions:
-    new:
-      email: "Email"
-      password: "Mật khẩu"
-      new_user: "Người dùng mới?"
-      signup_now: "Đăng ký ngay!"
-      rememberMe: "Ghi nhớ đăng nhập trên máy này."
-    create:
-      error_login: "Lỗi email hoặc mật khẩu"
-      success_login: "Đăng nhập thành công."
+    update:
+      fail_mess: Thay đổi không thành công.
+      success_mess: Tài khoản đã được cập nhật
+    user:
+      delete: Xóa
+      you_sure: Mày chắc chứ?
+  users_detail: Người dùng
+  views:
+    pagination:
+      first: « VỀ ĐẦU
+      last: VỀ CUỐI »
+      next: KẾ TIẾP ›
+      previous: ‹ TRANG TRƯỚC
+      truncate: …

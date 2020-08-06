@@ -23,3 +23,9 @@ validations:
 sessions:
   create:
     select_box: 1
+users:
+  gravatar: "https://gravatar.com/emails"
+  avatar_size: 80
+list_users:
+  avatar_size: 50
+  pagination: 20

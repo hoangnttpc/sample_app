@@ -5,10 +5,13 @@ ruby "2.7.1"
 
 gem "bcrypt", "~> 3.1"
 gem "bootsnap", ">= 1.4.2", require: false
+gem "bootstrap-kaminari-views"
 gem "bootstrap-sass", "~> 3.4.1"
 gem "config", "~> 2.2"
+gem "faker", "~> 2.13"
 gem "jbuilder", "~> 2.7"
 gem "jquery-rails", "~> 4.4"
+gem "kaminari"
 gem "mysql2", ">= 0.4.4"
 gem "puma", "~> 4.1"
 gem "rails", "~> 6.0.3", ">= 6.0.3.2"
@@ -35,5 +38,3 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
-
-gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]

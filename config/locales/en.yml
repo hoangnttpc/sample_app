@@ -7,7 +7,7 @@ en:
         password: Password
         password_confirmation: Confirmation
     errors:
-      format: "%{attribute} %{message}"
+      format: '%{attribute} %{message}'
       messages:
         accepted: must be accepted
         blank: can't be blank
@@ -30,19 +30,15 @@ en:
         present: must be blank
         required: must exist
         taken: has already been taken
-        wrong_length: incorrect length (must be %{count} characters)
         too_long: too long (maximum %{count} characters)
         too_short: too short (at least %{count} characters)
+        wrong_length: incorrect length (must be %{count} characters)
   hello: Hello world
-  login: "Log in"
-  logout: "Log out"
-  signup: "Sign up"
-  users_detail: "Users"
   layouts:
     application:
       en: English
-      vi: Vietnamese
       suffix_title: Ruby on Rails Tutorial Sample App
+      vi: Tiếng Việt
     footer:
       about_footer: About
       contact_footer: Contact
@@ -53,28 +49,42 @@ en:
       help_header: Help
       home_header: Home
       login_header: Log in
-      logout_header: Log out
       logo_alt: sample app
+      logout_header: Log out
       profile: My profile
       setting: Setting
+  login: Log in
+  logout: Log out
   ruby_on_rails: Ruby on Rails
   ruby_on_rails_book: Ruby on Rails Tutorial book.
   ruby_on_rails_help: Rails Tutorial help page.
   ruby_on_rails_tut: Ruby on Rails Tutorial
   ruby_on_rails_tut_author: Michael Hartl
   s_text: Like a flower
+  sessions:
+    create:
+      error_login: Invalid email/password combination
+      success_login: Login successfully
+    new:
+      email: Email
+      new_user: New user?
+      password: Password
+      rememberMe: Remember me on this computer
+      signup_now: Sign up now!
   shared:
     error_messages:
       errors_count:
-        other: "The form contains %{count} error(s)"
+        other: The form contains %{count} error(s)
+    user_not_found: "User not found"
+  signup: Sign up
   static_pages:
     about:
       about_title: About
       book: book
+      description_title: This is the sample app for the tutorial.
       detail_1: Ebook
       detail_2: is a part of the
       detail_3: family of tutorials, to teach web development with
-      description_title: This is the sample app for the tutorial.
       heading: About
       learn_enough: Learn Enough
       screencast: screencast series
@@ -95,27 +105,47 @@ en:
       home_title: Home
       sign_up_button: Sign up now!
   users:
-    new:
-      description_title: This will be a signup page for new users.
-      heading: Sign up
-      signup_title: Sign up
-      Fcreate: Create my account
-      name: "Name"
-      email: "Email"
-      password: "Password"
-      confirmation: "Password Confirmation"
     create:
-      success_mess: Welcome to the Sample App!
       fail_mess_create: Account create fail.
+      success_mess: Welcome to the Sample App!
+    destroy:
+      delete_danger: Failed to delete user
+      user_deleted: User deleted
+    edit:
+      change: Change
+      confirmation: Password Confirmation
+      edit_title: Edit user
+      email: Email
+      fsave: Save changes
+      heading: Update your profile
+      name: Name
+      not_logged_in: Please log in
+      password: Password
+    index:
+      heading: Users list
+      index_title: Users list
+    new:
+      confirmation: Password Confirmation
+      description_title: This will be a signup page for new users.
+      email: Email
+      fcreate: Create my account
+      heading: Sign up
+      name: Name
+      password: Password
+      signup_title: Sign up
     show:
       fail_mess_notfound: Account not found.
-  sessions:
-    new:
-      email: "Email"
-      password: "Password"
-      new_user: "New user?"
-      signup_now: "Sign up now!"
-      rememberMe: "Remember me on this computer"
-    create:
-      error_login: "Invalid email/password combination"
-      success_login: "Login successfully"
+    update:
+      fail_mess: Cannot update
+      success_mess: Your account has been updated
+    user:
+      delete: Delete
+      you_sure: Are you sure?
+  users_detail: Users
+  views:
+    pagination:
+      first: « FIRST
+      last: LAST »
+      next: NEXT ›
+      previous: ‹ PREV
+      truncate: …
