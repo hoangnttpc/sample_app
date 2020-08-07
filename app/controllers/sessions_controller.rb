@@ -11,7 +11,7 @@ class SessionsController < ApplicationController
         forget user
       end
       flash[:success] = t ".success_login"
-      redirect_to user
+      redirect_back_or user
     else
       flash[:danger] = t ".error_login"
       render :new

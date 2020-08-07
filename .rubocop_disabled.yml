@@ -70,3 +70,6 @@ Lint/AssignmentInCondition:
   Description: "Don't use assignment in conditions."
   Enabled: false
 
+Rails/HelperInstanceVariable:
+  Description: 'Do not use instance variables in helpers'
+  Enabled: false
