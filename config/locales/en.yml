@@ -55,6 +55,11 @@ en:
       setting: Setting
   login: Log in
   logout: Log out
+  mails:
+    activate: Activate
+    greeting: Hi
+    title: Sample app here
+    welcome: 'Welcome to the Sample App! Click on the link below to activate your account: '
   ruby_on_rails: Ruby on Rails
   ruby_on_rails_book: Ruby on Rails Tutorial book.
   ruby_on_rails_help: Rails Tutorial help page.
@@ -72,10 +77,15 @@ en:
       rememberMe: Remember me on this computer
       signup_now: Sign up now!
   shared:
+    account_activated: Account activated!
+    account_activation: Account activation
+    account_not_activated: Account not activated. Check your email for the activation link.
     error_messages:
       errors_count:
         other: The form contains %{count} error(s)
-    user_not_found: "User not found"
+    invalid_activation_link: Invalid activation link
+    user_not_found: User not found
+    greeting: Hello
   signup: Sign up
   static_pages:
     about:
@@ -104,6 +114,11 @@ en:
       heading: Sample App
       home_title: Home
       sign_up_button: Sign up now!
+  user_mailer:
+    password_reset:
+      click: 'Click this link to change your password:'
+      greeting: You received this email because you want to change password
+      title: Reset password
   users:
     create:
       fail_mess_create: Account create fail.
