@@ -55,6 +55,11 @@ vi:
       setting: Thiết lập
   login: Đăng nhập
   logout: Đăng xuất
+  mails:
+    activate: Kích hoạt
+    greeting: Chào
+    title: Ứng dụng mẫu đây
+    welcome: 'Chào mừng bạn đến với ứng dụng mẫu, hãy kích hoạt tài khoản bằng đường dẫn sau: '
   ruby_on_rails: Ruby on Rails
   ruby_on_rails_book: sách hướng dẫn Rails.
   ruby_on_rails_help: trang trợ giúp Rails.
@@ -72,10 +77,15 @@ vi:
       rememberMe: Ghi nhớ đăng nhập trên máy này.
       signup_now: Đăng ký ngay!
   shared:
+    account_activated: Tài khoản đã được kích hoạt
+    account_activation: Kích hoạt tài khoản
+    account_not_activated: Tài khoản chưa được kích hoạt. Kiểm tra hộp thư của bạn và kích hoạt tài khoản bằng đường dẫn đã được gửi.
     error_messages:
       errors_count:
         other: Có %{count} lỗi
-    user_not_found: "Không tìm thấy người dùng"
+    invalid_activation_link: Đường dẫn kích hoạt không hoạt dộng
+    user_not_found: Không tìm thấy người dùng
+    greeting: Xin chào
   signup: Đăng ký
   static_pages:
     about:
@@ -104,6 +114,11 @@ vi:
       heading: Sample App
       home_title: Trang chủ
       sign_up_button: Đăng ký ngay!
+  user_mailer:
+    password_reset:
+      click: 'Bấm vào liên kết sau để thay đổi mật khẩu:'
+      greeting: Mày nhận được email này là vì mày đéo nhớ password
+      title: Thay đổi mật khẩu
   users:
     create:
       fail_mess_create: Tài khoản tạo không thành công.
