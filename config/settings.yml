@@ -29,3 +29,4 @@ users:
 list_users:
   avatar_size: 50
   pagination: 20
+password_reset_expired: 2

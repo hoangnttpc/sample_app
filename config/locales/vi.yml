@@ -60,6 +60,16 @@ vi:
     greeting: Chào
     title: Ứng dụng mẫu đây
     welcome: 'Chào mừng bạn đến với ứng dụng mẫu, hãy kích hoạt tài khoản bằng đường dẫn sau: '
+  password_resets:
+    edit:
+      confirmation: Nhập lại mật khẩu
+      password: Mật khẩu
+      title: Đặt lại mật khẩu
+      update_password: Cập nhật mật khẩu
+    new:
+      email: Email
+      submit: Gửi
+      title: Quên mật khẩu
   ruby_on_rails: Ruby on Rails
   ruby_on_rails_book: sách hướng dẫn Rails.
   ruby_on_rails_help: trang trợ giúp Rails.
@@ -72,6 +82,7 @@ vi:
       success_login: Đăng nhập thành công.
     new:
       email: Email
+      forgot_password: (quên mật khẩu)
       new_user: Người dùng mới?
       password: Mật khẩu
       rememberMe: Ghi nhớ đăng nhập trên máy này.
@@ -80,12 +91,21 @@ vi:
     account_activated: Tài khoản đã được kích hoạt
     account_activation: Kích hoạt tài khoản
     account_not_activated: Tài khoản chưa được kích hoạt. Kiểm tra hộp thư của bạn và kích hoạt tài khoản bằng đường dẫn đã được gửi.
+    email_not_found: Email không tồn tại
+    email_sent: Hãy kiểm tra hộp thư của bạn
     error_messages:
       errors_count:
         other: Có %{count} lỗi
-    invalid_activation_link: Đường dẫn kích hoạt không hoạt dộng
-    user_not_found: Không tìm thấy người dùng
+    expire_in: Đường đẫn sẽ hết hạn sau hai tiếng
     greeting: Xin chào
+    if_you_did_not_request: Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này và mật khẩu của bạn sẽ được giữ nguyên.
+    invalid_activation_link: Đường dẫn kích hoạt không hoạt dộng
+    link_blow: 'Nhấn vào liên kết dưới đây để đặt lại mật khẩu:'
+    password_reset: Đổi mật khẩu
+    user_not_found: Không tìm thấy người dùng
+    cant_be_empty: "Không để trống"
+    password_has_been_reset: "Mật khẩu đã được đổi"
+    can_not_reset_password: "Không thể đặt lại mật khẩu"
   signup: Đăng ký
   static_pages:
     about:
