@@ -30,3 +30,22 @@ list_users:
   avatar_size: 50
   pagination: 20
 password_reset_expired: 2
+content_attribute:
+  max_length: 140
+avatar_size_micropost: 50
+items_per_pages: 30
+micropost:
+  content:
+    length_max: 140
+  image:
+    size: 5
+    resize_to_limit: 500
+    accept_type: "image/jpeg,image/gif,image/png"
+    content_type: %w(image/jpeg image/gif image/png)
+micropost_per_homepages: 9
+files:
+  image_type: /%w(image/jpeg image/gif image/png)/
+  valid_input: image/jpeg,image/gif,image/png
+  pic_resize: 500
+  pic_size: 5
+  change_digit: 1048576

@@ -60,6 +60,23 @@ vi:
     greeting: Chào
     title: Ứng dụng mẫu đây
     welcome: 'Chào mừng bạn đến với ứng dụng mẫu, hãy kích hoạt tài khoản bằng đường dẫn sau: '
+  microposts:
+    create:
+      micropost: Bài đăng
+      micropost_created: Bài đăng đã được tạo
+      micropost_fail: Tạo bài đăng thất bại
+    destroy:
+      micropost_deleted: Bài đăng đã được xóa
+      delete_post_fail: Quá trình xóa bài đăng gặp lỗi
+    image:
+      image_size: Kích thước tệp tối đa là 5MB. Vui lòng chọn một tệp nhỏ hơn.
+      valid_image_format: phải là một định dạng hình ảnh hợp lệ
+      valid_image_size: phải nhỏ hơn 5MB
+    micropost:
+      ago: trước
+      delete: Xóa
+      posted: Được đăng
+      you_sure: Bạn đã chắc chưa?
   password_resets:
     edit:
       confirmation: Nhập lại mật khẩu
@@ -91,6 +108,8 @@ vi:
     account_activated: Tài khoản đã được kích hoạt
     account_activation: Kích hoạt tài khoản
     account_not_activated: Tài khoản chưa được kích hoạt. Kiểm tra hộp thư của bạn và kích hoạt tài khoản bằng đường dẫn đã được gửi.
+    can_not_reset_password: Không thể đặt lại mật khẩu
+    cant_be_empty: Không để trống
     email_not_found: Email không tồn tại
     email_sent: Hãy kiểm tra hộp thư của bạn
     error_messages:
@@ -101,11 +120,19 @@ vi:
     if_you_did_not_request: Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này và mật khẩu của bạn sẽ được giữ nguyên.
     invalid_activation_link: Đường dẫn kích hoạt không hoạt dộng
     link_blow: 'Nhấn vào liên kết dưới đây để đặt lại mật khẩu:'
+    micropost_form:
+      alert_detail: Kích thước ảnh tối đa là 5 MB. Hãy chọn bức ảnh nhỏ hơn nhé!
+      compose_new_micropost: Soạn bài đăng mới...
+      post: Đăng
+    password_has_been_reset: Mật khẩu đã được đổi
     password_reset: Đổi mật khẩu
+    please_log_in: Hãy đăng nhập.
+    user_info:
+      micropost: bài đăng
+      view_my_profile: xem hồ sơ của bạn
     user_not_found: Không tìm thấy người dùng
-    cant_be_empty: "Không để trống"
-    password_has_been_reset: "Mật khẩu đã được đổi"
-    can_not_reset_password: "Không thể đặt lại mật khẩu"
+    valid_image_format: phải là một định dạng hình ảnh hợp lệ
+    valid_image_size: phải nhỏ hơn 5MB
   signup: Đăng ký
   static_pages:
     about:
@@ -133,7 +160,9 @@ vi:
       description_title: Đây là trang chủ cho
       heading: Sample App
       home_title: Trang chủ
+      micropost_feed: Bảng tin
       sign_up_button: Đăng ký ngay!
+      title: Ứng dụng mẫu
   user_mailer:
     password_reset:
       click: 'Bấm vào liên kết sau để thay đổi mật khẩu:'
@@ -170,6 +199,7 @@ vi:
       signup_title: Đăng ký
     show:
       fail_mess_notfound: Không tìm thấy thông tin tài khoản.
+      microposts: Bài đăng
     update:
       fail_mess: Thay đổi không thành công.
       success_mess: Tài khoản đã được cập nhật
