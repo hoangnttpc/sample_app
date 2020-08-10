@@ -51,14 +51,6 @@ class UsersController < ApplicationController
 
   private
 
-  def find_user
-    @user = User.find_by id: params[:id]
-    return if @user
-
-    flash[:danger] = t "shared.user_not_found"
-    redirect_to root_url
-  end
-
   def user_params
     params.require(:user).permit User::USERS_PARAMS
   end

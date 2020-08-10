@@ -14,6 +14,7 @@ class Micropost < ApplicationRecord
            message: I18n.t("microposts.image.valid_image_size", count: Settings.files.pic_size)}
 
   scope :by_created_at, ->{order created_at: :desc}
+  scope :feed_by_user, ->(user_ids){where user_id: user_ids}
 
   def display_image
     image.variant(resize_to_limit: [Settings.files.pic_resize, Settings.files.pic_resize])

@@ -24,6 +24,7 @@ class PasswordResetsController < ApplicationController
       render :edit
     elsif @user.update user_params.merge reset_digest: nil
       log_in @user
+      @user.update reset_digest: nil
       flash[:success] = t "shared.password_has_been_reset"
       redirect_to @user
     else

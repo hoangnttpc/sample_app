@@ -19,3 +19,7 @@
     </div>
   </body>
 </html>
+<%= javascript_tag do %>
+  I18n.locale = "<%= I18n.locale %>";
+  I18n.translations = <%= raw I18n::JS.filtered_translations.to_json %>;;
+<% end %>

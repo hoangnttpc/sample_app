@@ -33,6 +33,11 @@ en:
         too_long: too long (maximum %{count} characters)
         too_short: too short (at least %{count} characters)
         wrong_length: incorrect length (must be %{count} characters)
+  follow:
+    follow: Follow
+    followers: Followers
+    following: Following
+    unfollow: Unfollow
   hello: Hello world
   layouts:
     application:
@@ -201,6 +206,9 @@ en:
     show:
       fail_mess_notfound: Account not found.
       microposts: Microposts
+    show_follow:
+      microposts: Microposts
+      view_my_profile: view my profile
     update:
       fail_mess: Cannot update
       success_mess: Your account has been updated
@@ -215,3 +223,8 @@ en:
       next: NEXT ›
       previous: ‹ PREV
       truncate: …
+  relationships:
+    create:
+      user_not_exist: "User not exist"
+    destroy:
+      user_not_exist: "User not exist"
