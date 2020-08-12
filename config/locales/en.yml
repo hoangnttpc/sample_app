@@ -59,7 +59,24 @@ en:
     activate: Activate
     greeting: Hi
     title: Sample app here
-    welcome: Welcome to the Sample App! Click on the link below to activate your account:
+    welcome: Welcome to the Sample App! Click on the link below to activate your account
+  microposts:
+    create:
+      micropost: micropost
+      micropost_created: Micropost created!
+      micropost_fail: Create micropost failed
+    destroy:
+      micropost_deleted: Micropost deleted
+      delete_post_fail: Fail to delete !
+    image:
+      image_size: Maximum file size is 5MB. Please choose a smaller file.
+      valid_image_format: must be a valid image format
+      valid_image_size: should be less than 5MB
+    micropost:
+      ago: ago
+      delete: Delete
+      posted: Posted
+      you_sure: You sure?
   password_resets:
     edit:
       confirmation: Password confirmation
@@ -91,21 +108,32 @@ en:
     account_activated: Account activated!
     account_activation: Account activation
     account_not_activated: Account not activated. Check your email for the activation link.
+    can_not_reset_password: Can not reset password
+    cant_be_empty: can't be empty
     email_not_found: Email address not found
     email_sent: Email sent with password reset instructions
     error_messages:
       errors_count:
+        one: The form contains %{count} error
         other: The form contains %{count} error(s)
     expire_in: This link will expire in two hours.
     greeting: Hello
     if_you_did_not_request: If you did not request your password to be reset, please ignore this email and your password will stay as it is.
     invalid_activation_link: Invalid activation link
     link_blow: 'To reset your password click the link below:'
+    micropost_form:
+      alert_detail: Maximum file size is 5MB. Please choose a smaller file.
+      compose_new_micropost: Compose new micropost...
+      post: Post
+    password_has_been_reset: Password has been reset.
     password_reset: Password reset
+    please_log_in: Please log in.
+    user_info:
+      micropost: micropost
+      view_my_profile: View my profile
     user_not_found: User not found
-    cant_be_empty: "can't be empty"
-    password_has_been_reset: "Password has been reset."
-    can_not_reset_password: "Can not reset password"
+    valid_image_format: must be a valid image format
+    valid_image_size: should be less than 5MB
   signup: Sign up
   static_pages:
     about:
@@ -133,7 +161,9 @@ en:
       description_title: This is the home page for the
       heading: Sample App
       home_title: Home
+      micropost_feed: Micropost Feed
       sign_up_button: Sign up now!
+      title: Sample App
   user_mailer:
     password_reset:
       click: 'Click this link to change your password:'
@@ -170,6 +200,7 @@ en:
       signup_title: Sign up
     show:
       fail_mess_notfound: Account not found.
+      microposts: Microposts
     update:
       fail_mess: Cannot update
       success_mess: Your account has been updated
